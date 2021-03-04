@@ -1,1 +1,196 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T07:16:08.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.4" etag="JYu6RUYajcRrNR3PHTUT" type="github"><diagram id="ZQvaJdHW4Y1bGf_VrLtN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T08:22:59.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="SZxqrPmPwHXoXfZd00s1" version="14.4.4" type="github">
+  <diagram id="ZQvaJdHW4Y1bGf_VrLtN" name="Page-1">
+    <mxGraphModel dx="981" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" width="20" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-11" value="Thanh Toán" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="UhmJ4qmlXpalRMiFR3PB-3" target="UhmJ4qmlXpalRMiFR3PB-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-35" value="Nhập thông tin thanh toán" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="UhmJ4qmlXpalRMiFR3PB-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="150" as="sourcePoint" />
+            <mxPoint x="470" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-3">
+          <mxGeometry x="5" y="60" width="10" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-7" value="Merchant" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-20" value="Gửi thông tin đơn hàng" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="UhmJ4qmlXpalRMiFR3PB-7" target="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="130" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-7">
+          <mxGeometry x="45" y="60" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-8" value="Jetpay" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="314" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-28" value="Gửi thông tin đơn hàng" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="56" y="100" as="sourcePoint" />
+            <mxPoint x="196" y="101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry x="45" y="200" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry x="45" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry x="45" y="470" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-9" value="Napas" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=30;" vertex="1" parent="1">
+          <mxGeometry x="470" y="10" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-38" value="Gửi thông tin thanh toán" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="UhmJ4qmlXpalRMiFR3PB-9" target="UhmJ4qmlXpalRMiFR3PB-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="150" as="sourcePoint" />
+            <mxPoint x="130" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry x="45" y="180" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry x="45" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-71" value="Gửi OTP" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="UhmJ4qmlXpalRMiFR3PB-9" target="UhmJ4qmlXpalRMiFR3PB-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="340" as="sourcePoint" />
+            <mxPoint x="130" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry x="45" y="370" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-89" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry x="45" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-10" value="Bank" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-10">
+          <mxGeometry x="45" y="140" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-10">
+          <mxGeometry x="45" y="330" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UhmJ4qmlXpalRMiFR3PB-10">
+          <mxGeometry x="50" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-97" value="Kiểm tra thông tin thanh toán" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhmJ4qmlXpalRMiFR3PB-96" parent="UhmJ4qmlXpalRMiFR3PB-10" source="UhmJ4qmlXpalRMiFR3PB-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="170" />
+              <mxPoint x="110" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-34" value="hiển thị form nhập thông tin thanh toán" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="130" as="sourcePoint" />
+            <mxPoint x="430" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-49" value="Thông báo lỗi" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="200" as="sourcePoint" />
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-51" value="Thông báo lỗi" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="207" as="sourcePoint" />
+            <mxPoint x="363.8103448275863" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-52" value="Thông báo lỗi" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="217" as="sourcePoint" />
+            <mxPoint x="49.81034482758628" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-66" value="Send OTP" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="270" as="sourcePoint" />
+            <mxPoint x="590" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-69" value="Nhập OTP" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="330" as="sourcePoint" />
+            <mxPoint x="140" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-75" value="Sai OTP" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="390" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-78" value="Sai OTP" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-82" value="Sai OTP" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.552;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UhmJ4qmlXpalRMiFR3PB-79" target="UhmJ4qmlXpalRMiFR3PB-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-86" value="Giao dịch thành công" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="460" as="sourcePoint" />
+            <mxPoint x="590" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-87" value="Giao dịch thành công" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-88" value="Giao dịch thành công" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="UhmJ4qmlXpalRMiFR3PB-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="500" as="sourcePoint" />
+            <mxPoint x="280" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-98" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="680" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhmJ4qmlXpalRMiFR3PB-74" value="Check OTP" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="705" y="360" />
+            </Array>
+            <mxPoint x="685" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
